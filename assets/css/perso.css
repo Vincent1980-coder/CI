@@ -1,0 +1,211 @@
+    /* Entête */
+
+        #logo {
+            background-size: contain;
+            background-position: center;
+            max-width: auto;
+            max-height: 12rem;
+            size: initial;
+        }
+
+    /*Pour la navbar d'entete */
+
+        .nav-link {
+            background-position: center
+        }
+        
+        a, .navbar {
+            background-color: #5A671F;
+        }
+
+        .navbar-text {
+            text-align: center;
+        }
+
+        .nav-item1 {
+            margin-top: 25px;            
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: rgba(144, 238, 144, 0.096);
+            }
+        }
+
+    /* Fond de la page*/
+        
+        #titre {
+            color: #5A671F;
+            text-shadow: 2px 2px 2px #CBC965, -1px -1px 1px #CBC965;
+        }
+        
+        body {
+            font-family: "Times New Roman";
+            color: #F7EEE7;
+            text-shadow: 2px 2px 2px #A4755B, -1px -1px 1px #A4755B;
+            text-align: center;  
+            background: url('../img/174.jpg') fixed center;
+            background-size: cover;
+        }
+        
+        legend {
+            font-family: "Times New Roman";
+            color: #E0D4C6;
+            font-style: inherit;
+        }
+
+    /* Police du texte tapé l'intérieur des champs et mettre une marge à gauche */
+        
+        select {
+            color: #CBC965;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 15px;
+            background-color: #F7EEE7;
+        }
+        
+        label {
+            color: #CBC965;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+        
+        fieldset {
+            background-color: rgba(144, 238, 144, 0.336);
+            color: #CBC965;
+        }
+        
+        input, textarea {
+            color: #F7EEE7;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            text-align: center;
+            margin-inline: center;
+            margin-left: auto;
+            background-color: #CBC965;
+        }
+        
+        h2, h4 {
+            color: #CBC965;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 25px;
+            margin-inline: center;
+            margin-left: auto;
+        }
+        
+        h5 {
+            color: #CBC965;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 25px;
+        }
+        
+        .lien {
+            color: #F7EEE7;
+            font-weight: bold;
+        }
+        
+    /* Personnalisation de la liste de produits */
+        
+        .produit {
+            height: 150px;
+            width: 75px;
+            object-fit: scale-down;
+        }
+        
+        a.ajout {
+            color: rgba(90, 103, 31, 0.438);
+            font-weight: bolder;
+            background-color: rgba(0, 128, 128, 0);
+        }
+        
+        .modif {
+            color: #A4755B;
+        }
+        
+        th, .titre {
+            border: #5A671F 2px;
+            color: #F7EEE7;
+            background-color: rgba(144, 238, 144, 0.096);
+            font-size: 1rem;
+        }
+        
+        button {
+            border: none;
+        }
+        
+        .come {
+            background-color: rgba(144, 238, 144, 0.082);
+        }
+        
+        table, td, tr {
+            border: #5A671F 1rem;
+            background-color: rgba(144, 238, 144, 0.336);
+            font-size: 1rem;
+            margin: auto;
+
+        }
+        
+        .up {
+            color: #CBC965;
+            background-color: rgba(144, 238, 144, 0.103);
+        }
+        
+        .del {
+            color: #A4755B;
+            background-color: rgba(144, 238, 144, 0.103);
+        }
+        
+        .photo {
+            background-color: rgb(255, 255, 255);
+        }
+        
+
+    /*Concernant le formulaire d'enregisterment / de connexion*/
+
+        .mess {
+            font-size-adjust: inherit;
+            font-family: fantasy;
+            font-style: oblique;
+            font-size: larger;
+            color: #CBC965;
+        }
+        
+        .title {
+            font-size-adjust: inherit;
+            font-family: fantasy;
+            font-size: larger;
+            color: #CBC965;
+            font-size: 2rem;
+        }
+
+        #envoi1, #envoi2, #bouton_envoi, #bouton_reset {
+            color: #5A671F;
+            background-color: #CBC965;
+        }
+
+        .form-row {
+            background-position: center;
+            background-color: #CBC965;
+        }
+
+        .btn {
+            background-color: #5A671F;
+            border: none;
+        }
+
+    /*Formulaire d'anciens élèves*/
+
+        #radio {
+            background-position: center;
+        }
+
+        .custom-control-label {
+            font-size: 17px;
+            background-position: center;
+        }
+
+    /*pied de page*/
+
+        #lien {
+            display: inline-flexbox;
+        }
